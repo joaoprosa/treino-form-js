@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(favela.jpeg);
+    background-size: cover;
+
+    
+}
+form{
+    width: 40vw;
+    height: 60vh;
+    border: solid black 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column;
+    background-image: url(festa.jpg);
+    background-size: cover;
+}
+input{
+    width: 70%;  
+    height: 70px;
+}
+h1{
+    margin-bottom: 50px;
+    color: rgb(179, 0, 155);
+}
